@@ -1,55 +1,24 @@
 <template>
-  <div id="app">
-    <Navbar
-      name="Wildo Codak" 
-      :navLinks="[
-        {
-          name: 'Home',
-          link: '/home',
-          dropdown: false,
-        },
-
-        { name: 'About', 
-        link: '/about', 
-        dropdown: false },
-
-        {
-          name: 'Contacts',
-          link: '/contact',
-          dropdown: true,
-          dropdownLinks: [ 
-            { name: 'A', link: '/pA', dropdown: false },
-            { name: 'B', link: '/pB', dropdown: false },
-          ],
-        },
-        {
-          name: 'Projects',
-          link: '/projects',
-          dropdown: false,
-        },
-      ]"
-    />
+  <div>
+    <Navbar/>
+    <div class="container">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
+import Navbar from "./components/Navbar";
+//import "../node_modules/materialize-css/dist/css/materialize.min.css";
+//import "../node_modules/materialize-css/dist/js/materialize.min.js";
 
 export default {
-  name: 'App',
+  name: "app",
   components: {
-    Navbar,
-  },
-}
+    Navbar
+  }
+};
 </script>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  overflow-x: hidden;
-}
+<style scoped>
 </style>
