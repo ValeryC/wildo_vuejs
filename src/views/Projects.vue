@@ -6,46 +6,8 @@
                 <h1>Projects</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 margin_article">
-                <img class="img_project" src='../assets/images/city/city_1.jpg' alt="IMAGE PROJECT 1">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 col-xs-6 col-xs-offset-2">
-                <h3>Paris under the snow</h3>
-            </div>
-            <div class="col-md-2 col-lg-2 col-xs-2">
-                <h4 class="date">January 2018</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2">
-                <p class="article">Paris under a white coat, some pictures of the most famous places in the city under
-                    the snow so as to
-                    capture and remember those magical and fleeting moments. I choose to Just to enjoy, without a word:
-                    Snow is also Silence. Before the next storm hits keep scrolling to see what the most romantic city
-                    in the world looks like as a true winter wonderland.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2" align="center">
-                <br>
-                    <router-link to="/portefolio">
-                        <input type="submit" class="btn_pages" value="More pictures">
-                    </router-link>
-                <br/>
-                <br>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <!-- <div class="col-md-offset-8 col-md-4">
-                <hr class="hr_homepage">
-            </div> -->
-        </div>
-
+    <my-form v-model="inputList"/>   
+  
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 margin_article"
                  align="center">
@@ -165,9 +127,47 @@
 </template>
 
 <script>
-
+import Form from "../components/Form"
 export default {
   name: "Projects",
+  data() {
+    return {
+      inputList: [
+        {
+          name: "paris sous la neige",
+
+          text:
+            "Paris under a white coat, some pictures of the most famous places in the city under the snow so as to capture and remember those magical and fleeting moments. I choose to Just to enjoy, without a word: Snow is also Silence. Before the next storm hits keep scrolling to see what the most romantic city in the world looks like as a true winter wonderland.",
+          date: "28/10/03",
+          type: "my-input-text",
+        },
+        {
+          name: "paris sous la pluie",
+
+          text:
+            "Paris is one of the most famous cities of art and culture in the world, its museums and all its monuments form a breathtaking digest of the artistic history of Europe and the world. Whether you are a tourist in Paris or a Parisian, you are always amazed, my work shows one of these aspects",
+          date: "34/8/22",
+          type: "my-input-text",
+        },
+        {
+          name: "married",
+
+          text: "la maman a toto",
+          date: "14/32/26",
+          type: "my-input-text",
+        },
+      ],
+    };
+  },
+    methods: {
+    getPeekValue() {
+      return this.inputList;
+    },
+    },
+
+  components:  { 
+      "my-form": Form,
+}
 }
 </script>
 
