@@ -19,7 +19,6 @@ export default {
 
   props: {
     // v-model in the parent component fills props.value automtically
-
     value: {
       type: Array,
       required: true

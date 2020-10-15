@@ -16,6 +16,9 @@
                 </div>
                   <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      
+                    <router-link class="navbar-header ini" to="/invisible">|||</router-link>
+                    
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                           <router-link to="/">HOME</router-link>

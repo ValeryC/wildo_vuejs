@@ -134,8 +134,8 @@ export default {
       return {
           inputList: [
               {
-                  name: "PARIS UNDER THE SNOW",
-          img : "../assets/images/city/city_1.jpg",
+          name: "PARIS UNDER THE SNOW",
+          url: "../assets/images/city/city_1.jpg",
           text:
             "Paris under a white coat, some pictures of the most famous places in the city under the snow so as to capture and remember those magical and fleeting moments. I choose to Just to enjoy, without a word: Snow is also Silence. Before the next storm hits keep scrolling to see what the most romantic city in the world looks like as a true winter wonderland.",
           date: "JANUARY 2018",
@@ -143,7 +143,7 @@ export default {
         },
         {
           name: "PARISIANS MONUMENTS",
-          img : "../assets/images/city/city_2.jpg",
+          url: "../assets/images/city/city_2.jpg",
           text:
             "Paris is one of the most famous cities of art and culture in the world, its museums and all its monuments form a breathtaking digest of the artistic history of Europe and the world. Whether you are a tourist in Paris or a Parisian, you are always amazed, my work shows one of these aspects",
           date: "DECEMBER 2017",
@@ -151,7 +151,7 @@ export default {
         },
         {
           name: "PARISIANS CONCERTS AND FESTIVALS",
-          img : "../assets/images/city/city_3.jpg",
+          url: "../assets/images/city/city_3.jpg",
           text: "Paris has an all-year-round busy festival scene. Music, theatre, cinema, dance, street arts ... There’s something for all tastes and all ages. Attracting tourists and Parisians, each event is the opportunity to get together for a fun time with family or friends !aris lively music scene of energy. I chose to retransmit this energy through my photographs.",
           date: "AOUT 2016",
           type: "my-input-text",

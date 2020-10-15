@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-
+import Invisible from './views/Invisible';
 import Home from './views/Home.vue';
 import Projects from './views/Projects';
 import Portefolio from './views/Portefolio';
@@ -32,6 +32,10 @@ export default new Router({
     {
       path: '/contact',
       component: Contact
+    },
+    {
+      path: '/invisible',
+      component: Invisible
     }
   ]
 });
