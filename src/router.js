@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Invisible from './views/Invisible';
 import Home from './views/Home.vue';
+import Gallery from './views/Gallery';
 import Projects from './views/Projects';
 import Portefolio from './views/Portefolio';
 import About from './views/About.vue';
@@ -16,6 +17,10 @@ export default new Router({
     {
       path: '/',
       component: Home
+    },
+    {
+      path: '/gallery',
+      component: Gallery
     },
     {
       path: '/projects',

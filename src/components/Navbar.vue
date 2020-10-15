@@ -24,6 +24,10 @@
                           <router-link to="/">HOME</router-link>
                         </li>
                         <li>
+                          <router-link to="/Gallery">Gallery</router-link>
+                        </li>
+
+                        <li>
                           <router-link to="/projects">PROJECTS</router-link>
                         </li>
                          <li>

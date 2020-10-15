@@ -1,12 +1,9 @@
 <template>
   <div>
     <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 margin_article">
-              
-              <img class="img_project" src="../assets/images/city/city_1.jpg" alt="IMAGE PROJECT 1">
-                <div class="img_project" :style="setBackgroundImage">{{value.url}}</div>
-
-
+            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 margin_article">     
+              <img class="img_project" v-bind:src="cityImg" alt="IMAGE PROJECT 1">
+         
             </div>
         </div>
         <div class="row">
@@ -47,18 +44,20 @@ export default {
     }
   },
   computed:{
-  setBackgroundImage(){
-    return { backgroundImage: 'url(../assets/images/city/city_2.jpg)'
+
+    cityImg(){
+    const num = this.value.url
+    if(this.value.spec=="city"){
+        return require("@/assets/images/city/city_"+num)
     }
+    else if(this.value.spec=="events"){
+        return require("@/assets/images/events/events_"+num)
+        }
+     else{
+        return require("@/assets/images/press/press_"+num)
+        }    
     }
-  },
-     
-  methods: {
-    // just the value for the peeker
-    getPeekValue() {
-      return this.value;
-    }
-  }
+   },
 };
 </script>
 
