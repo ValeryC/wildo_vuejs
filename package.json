@@ -1,5 +1,5 @@
 {
-  "name": "vue-starter",
+  "name": "wild42",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
-    "core-js": "^2.6.5",
+    "core-js": "^3.6.5",
     "materialize-css": "^1.0.0-rc.2",
     "v-img": "^0.2.0",
     "vue": "^2.6.10",
@@ -28,6 +28,11 @@
     "sass-loader": "^10.0.3",
     "vue-template-compiler": "^2.5.21",
     "webpack": "^5.1.0"
+  },
+  "dependenciesMeta": {
+    "core-js": {
+      "unplugged": true
+    }
   },
   "eslintConfig": {
     "root": true,
@@ -51,5 +56,20 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "no",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValeryC/wildo_vuejs.git"
+  },
+  "keywords": [
+    "wild"
+  ],
+  "author": "valery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValeryC/wildo_vuejs/issues"
+  },
+  "homepage": "https://github.com/ValeryC/wildo_vuejs#readme"
 }

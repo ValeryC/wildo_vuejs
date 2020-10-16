@@ -1,3 +1,4 @@
+
 <template>
    <section id="contact" class="content_sectionContact">
         <div class="container">
@@ -84,9 +85,7 @@
     </section>
 </template>
 <script>
-
 import Modal from '../components/Modal.vue'
-
 export default {
   name: "Contact",
   components: { 
@@ -115,8 +114,6 @@ export default {
       },
   }
   
-
-
 }
 </script>
 
