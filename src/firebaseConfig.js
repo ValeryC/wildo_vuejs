@@ -1,9 +1,9 @@
 export default{
-        apiKey: "AIzaSyBDfZ-IFjK5ChWjJYl1H7RR7hDCRTFVa40",
-        authDomain: "wildo42.firebaseapp.com",
-        databaseURL: "https://wildo42.firebaseio.com",
-        projectId: "wildo42",
-        storageBucket: "wildo42.appspot.com",
-        messagingSenderId: "1031842663150",
-        appId: "1:1031842663150:web:8690276e9222730bea41ff"
+        apiKey: "AIzaSyAznivzwu-f6o6lPtjWzyivww5WAjfl_YY",
+        authDomain: "vue-app-51f23.firebaseapp.com",
+        databaseURL: "https://vue-app-51f23.firebaseio.com",
+        projectId: "vue-app-51f23",
+        storageBucket: "vue-app-51f23.appspot.com",
+        messagingSenderId: "744613285872",
+        appId: "1:744613285872:web:e8e04ff0e92decf05d9735"
 }
