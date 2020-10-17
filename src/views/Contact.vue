@@ -124,16 +124,15 @@ export default {
       },//executing the show method of child
      submit(){
         if(this.firstName.length==0){
-        this.contact_notice = 'Put your name';
+        this.contact_notice = 'Put your name.';
         }
         else if (!this.validEmail(this.emailAddress)) {
         this.contact_notice = 'The email address is badly formatted.';
-      } else if (this.message.length < 10) {
+        } 
+        else if (this.message.length < 10) {
         this.contact_notice = "Your message is too short";
-
-
-         }
-         else{
+        }
+        else{
                 db.collection("EmailAddresses").add({
                         firstName:this.firstName,
                         emailAddress:this.emailAddress,
