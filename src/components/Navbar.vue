@@ -17,12 +17,12 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <div>
-                    <router-link class="navbar-header ini" to="/invisible">|||</router-link>
+                          <router-link class="navbar-header ini" to="/invisible">|||</router-link>
                       </div>
                         <div>
-                    <router-link class="navbar-header ini" to="/invisible2">|||</router-link>
+                          <router-link class="navbar-header ini" to="/invisible2">---</router-link>
                       </div>
-                    <ul class="nav navbar-nav navbar-right">
+                      <ul class="nav navbar-nav navbar-right">
                         <li>
                           <router-link to="/">HOME</router-link>
                         </li>

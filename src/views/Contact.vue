@@ -20,7 +20,7 @@
                                 <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                                     <div class="form-group">
                                         <!--<label for="form_name">Name *</label>-->
-                                        <label for="Name">Full Name</label> 
+                                      <label for="Name">Full Name</label> 
                                         <input 
                                         id="userFullName" 
                                         type="text" name="Full Name" 
