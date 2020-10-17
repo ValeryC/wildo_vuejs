@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <div class="row">
     <gallery :images="images" :index="index" @close="index = null"></gallery>
     <div
       class="image"
@@ -8,6 +9,7 @@
       @click="index = imageIndex"
       :style="{ backgroundImage: 'url(' + image + ')', width: '272px', height: '272px' }"
     ></div>
+    </div>
   </div>
 </template>
 

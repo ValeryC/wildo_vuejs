@@ -16,7 +16,8 @@
                                 </div>
                             </div>
                              <div v-if="contact_notice != ''" class="alert alert-warning">
-                                 There was a problem submitting your message. {{contact_notice}}
+                                 There was a problem submitting your message.
+                                 {{contact_notice}}
                           </div>
                             <div class="row">
                                 <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
@@ -78,7 +79,7 @@
                             </div>
                     </div>
              
-        <div v-else>
+        <div v-else class="messageSent">
           <h3>Message Sent Successfully!</h3>
           <p>Thank you for contacting us, we'll get back to you as soon as we can.</p>
         </div>
@@ -123,7 +124,7 @@ export default {
       },//executing the show method of child
      submit(){
         if(this.firstName.length==0){
-        this.contact_notice = 'put your name';
+        this.contact_notice = 'Put your name';
         }
         else if (!this.validEmail(this.emailAddress)) {
         this.contact_notice = 'The email address is badly formatted.';

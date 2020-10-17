@@ -5,7 +5,6 @@
                 <div class="container">
                     <div  v-if="show_contact == true" class="row">
                         <!--Formulaire de contact-->
-                   
                             <div class="controls">
                                 <div class="row" align="center">
                                     <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6  col-lg-offset-3">
@@ -82,8 +81,7 @@
           <h3>Message Sent Successfully!</h3>
           <p>Thank you for contacting us, we'll get back to you as soon as we can.</p>
         </div>
-
-             
+        
                 </div>
             </div>
         </div>
