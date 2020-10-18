@@ -49,11 +49,10 @@
         <div class="container zone_pictosUpDown">
             <div class="row">
                 <div class="col-12" align="center">
-                    <a href="/about">
-                        <div class="pictoDown">>
-                             
+                   <router-link to="/about">
+                        <div class="pictoDown">>      
                         </div>
-                    </a>
+                 </router-link>
                 </div>
             </div>
         </div>
