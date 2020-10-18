@@ -15,7 +15,7 @@
                                     </div>
                                 </div>
                             </div>
-                             <div v-if="contact_notice != ''" class="alert alert-warning">
+                             <div v-if="contact_notice != ''" class="alert alert-warning align">
                                  There was a problem submitting your message.
                                  {{contact_notice}}
                           </div>
