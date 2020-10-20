@@ -15,9 +15,16 @@
                                     </div>
                                 </div>
                             </div>
-                             <div v-if="contact_notice != ''" class="alert alert-warning align">
+                            <div class="row">
+                             <div v-if="contact_notice != ''" class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                                <div class="form-group">
+                                 <div class="alert alert-warning align">
                                  There was a problem submitting your message.
                                  {{contact_notice}}
+                                 </div>
+                                 </div>
+
+                          </div>
                           </div>
                             <div class="row">
                                 <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
