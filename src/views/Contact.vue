@@ -87,7 +87,7 @@
                     </div>
              
         <div v-else class="messageSent">
-          <h3>Message Sent Successfully!</h3>
+          <div class="biger">Message Sent Successfully!</div>
           <p>Thank you for contacting us, we'll get back to you as soon as we can.</p>
         </div>
 
