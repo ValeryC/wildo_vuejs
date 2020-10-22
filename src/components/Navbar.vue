@@ -22,12 +22,14 @@
                         <div>
                           <router-link class="navbar-header ini" to="/invisible2">---</router-link>
                       </div>
-                      <ul class="nav navbar-nav navbar-right">
+                      <ul class="nav navbar-nav navbar-right" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
                         <li>
                           <router-link to="/">HOME</router-link>
                         </li>
                         <li>
-                          <router-link to="/Gallery">Gallery</router-link>
+                          <router-link to="/Gallery" >Gallery</router-link>
                         </li>
 
                         <li>

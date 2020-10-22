@@ -1,7 +1,7 @@
 <template>
  <div>
 <!-- /.container-fluid -->
-<div id="carousel-example-generic" class="my-carousel carousel slide" data-ride="carousel" data-interval="4000">
+    <div id="carousel-example-generic" class="my-carousel carousel slide" data-ride="carousel" data-interval="4000">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">

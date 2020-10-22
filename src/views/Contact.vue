@@ -79,7 +79,6 @@
             
                                                <!--@click="openModal"-->
                                     <Modal ref="modal" />
-                                    
                                     <br>
                                     <br>
                                 </div>
