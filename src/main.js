@@ -1,17 +1,14 @@
-import Vue from 'vue';
-import App from './App.vue';
-import VueImg from 'v-img';
+import Vue from 'vue'
+import VueImg from 'v-img'
+import VueGallery from 'vue-gallery'
+import App from './App.vue'
+import router from './router'
 
-Vue.use(VueImg);
-import VueGallery from 'vue-gallery';
-
+Vue.use(VueImg)
 Vue.component('VGallery', VueGallery)
-
-import router from './router';
-
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 new Vue({
   router,
-  render: (h) => h(App)
-}).$mount('#app');
+  render: (h) => h(App),
+}).$mount('#app')

@@ -2,7 +2,7 @@
   <div>
     <div class="row">
             <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 margin_article">     
-              <img class="img_project" v-bind:src="cityImg" alt="IMAGE PROJECT 1">
+              <img class="img_project" :src="cityImg" alt="IMAGE PROJECT 1">
          
             </div>
         </div>

@@ -1,4 +1,4 @@
-export default{
+export default {
         apiKey: "AIzaSyAznivzwu-f6o6lPtjWzyivww5WAjfl_YY",
         authDomain: "vue-app-51f23.firebaseapp.com",
         databaseURL: "https://vue-app-51f23.firebaseio.com",
